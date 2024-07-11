@@ -127,7 +127,7 @@ const maxOfThreeNum =(num1, num2, num3) => {
     // }
 }
 
-
+//  Incorrect code listed below, correct code is on line118
 // const maxOfThreeNum = (5,10,8) => {
 //     if (num1 > num2) {
 //         return num2;
@@ -152,5 +152,24 @@ const maxOfThreeNum =(num1, num2, num3) => {
 //     }
 // }
 
+// This code goes with the code on line 118. This is what is being ran
 console.log('Exercise 6 Result:', maxOfThreeNum(5, 10, 8));
+
+
+/*
+Exercise 7: calculateTip()
+
+Create a function called calculateTip. It should take two arguments: 
+the bill amount and the tip percentage (as a whole number). 
+The function should return the amount of the tip.
+
+Example: calculateTip(50, 20) should return 10.
+
+Complete the exercise in the space below:
+*/
+
+const calculateTip = 
+
+console.log('Exercise 7 Result:', calculateTip(50, 20));
+
 
