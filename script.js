@@ -115,8 +115,20 @@ Example: maxOfThree(17, 4, 9) should return 17.
 Complete the exercise in the space below:
 */
 
-// const maxOfThreeNum =(num1,num2, num3) => {
-//     const num1 = [5]
+const maxOfThreeNum =(num1, num2, num3) => {
+    if (num1 < num2) {
+        return num2;
+    }
+    if (num2 < num3) {
+        return num2;
+    }
+    if (num1 > num3) {
+        return num3
+    }
+}
+
+
+// const maxOfThreeNum = (5,10,8) => {
 //     if (num1 > num2) {
 //         return num2;
 //     }
@@ -124,20 +136,21 @@ Complete the exercise in the space below:
 //         return num2;
 //     }
 //     if (num1 > num3) {
-//         return num3
+//         return num3;
 //     }
 // }
-const maxOfThreeNum = (5,10,8) => {
-    if (num1 > num2) {
-        return num2
-    }
-    if (num2 < num3) {
-        return num2;
-    }
-    if (num1 > num3) {
-        return num3;
-    }
-}
 
-console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
+// const maxOfThreeNum = (five,ten,eigth) => {
+//     if (5 > 10) {
+//         return 5
+//     }
+//     if (10 < 8) {
+//         return 5;
+//     }
+//     if (5 > 8) {
+//         return 5;
+//     }
+// }
+
+console.log('Exercise 6 Result:', maxOfThreeNum(5, 10, 8));
 
