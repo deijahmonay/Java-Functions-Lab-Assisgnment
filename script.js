@@ -187,6 +187,6 @@ Example: convertTemperature(32, 'F') should return 0 (Celsius).
 Complete the exercise in the space below:
 */
 
-const convertTemperature =
+const convertTemperature = (temperature, scale) => {}
 
 console.log('Exercise 8 Result:', convertTemperature(32, "C"));
