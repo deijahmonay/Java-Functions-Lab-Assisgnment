@@ -168,8 +168,8 @@ Example: calculateTip(50, 20) should return 10.
 Complete the exercise in the space below:
 */
 
-const calculateTip = 
-
+const calculateTip =()
+// Having a hard time with this exercise
 console.log('Exercise 7 Result:', calculateTip(50, 20));
 
 
