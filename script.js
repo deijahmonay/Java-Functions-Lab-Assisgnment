@@ -53,10 +53,32 @@ Example: isCharAVowel('a') should return true.
 
 Complete the exercise in the space below:
 */
+ let vowels = ['a,e,i,o,u']
+function isCharAVowel(char){
+    let vowel = 'a,e,i,o,u'
 
+if (vowel.includes(char)) {
+    return 'true'
+} else {
+    return 'false'
+}
+}
 
 
 console.log('Exercise 3 Result:', isCharAVowel("a"));
+
+// const isCharAVowel = (char) => {
+//     const vowels = ['a', 'e', 'i', 'o', 'u'];
+//     if (vowels.includes(char)) {
+//         return "true";
+//     } else {
+//         return "false"
+//     }
+// }
+
+// console.log('Exercise 3 Result:', isCharAVowel("a"));
+// console.log('Exercise 3 Result:', isCharAVowel('q'));
+// console.log('Exercise 3 Result:', isCharAVowel('i'));
 
 
 
