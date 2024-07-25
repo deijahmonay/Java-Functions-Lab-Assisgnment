@@ -66,7 +66,7 @@ if (vowel.includes(char)) {
 
 
 console.log('Exercise 3 Result:', isCharAVowel("a"));
-
+//Please ignore lines 70- 81, that was from my first attempt and i figured out a better/ correct way to write this code
 // const isCharAVowel = (char) => {
 //     const vowels = ['a', 'e', 'i', 'o', 'u'];
 //     if (vowels.includes(char)) {
@@ -80,6 +80,21 @@ console.log('Exercise 3 Result:', isCharAVowel("a"));
 // console.log('Exercise 3 Result:', isCharAVowel('q'));
 // console.log('Exercise 3 Result:', isCharAVowel('i'));
 
+/*
+Exercise 4: generateEmail()
+
+Create a function named generateEmail. It should take two strings: 
+a name and a domain. It should return a simple email address.
+
+Example: generateEmail('johnsmith', 'example.com') 
+should return 'johnsmith@example.com'.
+
+Complete the exercise in the space below:
+*/
+
+
+
+console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
 
 
 
