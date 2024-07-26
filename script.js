@@ -1,4 +1,4 @@
-// Starting from excercise one -- making my way through each individual excercise
+/* Starting from excercise one -- making my way through each individual excercise */
 
 /*
 Exercise 1: maxOfTwoNumbers()
