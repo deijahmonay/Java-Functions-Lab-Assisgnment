@@ -161,9 +161,16 @@ Example: calculateTip(50, 20) should return 10.
 Complete the exercise in the space below:
 */
 
-
+function calculateTip(billAmount,tipPercentage){
+    return billAmount * (tipPercentage/100);
+}
 
 console.log('Exercise 7 Result:', calculateTip(50, 20));
+
+/* Note for Mark from Deijah -- it tells me to write the tipPercentage as a whole number
+in the instructions, I'm wondering if i wassupposed to do something other than the division
+in like #165 within the tipPercentage value. Please let me knwo if there was another to
+write this out or if I'm correct in my undertanding. Thank you!
 
 
 
