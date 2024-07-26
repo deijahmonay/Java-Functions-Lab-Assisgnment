@@ -111,9 +111,17 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 Complete the exercise in the space below:
 */
 
+function greetUser(timeOfDay,name){
+    console.log(`Good ${timeOfDay},${name}!`)
 
+}
+greetUser("Morning","Sam")
+// console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+/* Note from DeIjah to Mark --
 
-console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
+I'm unsure if I was supposed to console.log this one but my result returned "Good morning, Sam!" 
+without explicitly typing out the console.log -- please let me know if this is okay or I should have keep the
+explicit "console.log"
 
 
 
