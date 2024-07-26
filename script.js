@@ -187,11 +187,19 @@ Example: convertTemperature(32, 'F') should return 0 (Celsius).
 
 Complete the exercise in the space below:
 */
+function convertTemperature(temperature,scale){
+    if (scale === 'C'){
+        //convert celsius to fahrenheit
+        return (temperature * 9/5) + 32; // Celsius to Fahrenheit formula - F = C x 9/5 + 32 
+    } else if (scale === 'F') {
+        //convert fahrenheit to celsius
+        return (temperature - 32) * 5/9; // Fahrenheit to Celsius formula - C = (F-32) x 5/9  
+    }
 
-
+    }
 
 console.log('Exercise 8 Result:', convertTemperature(32, "C"));
-
+console.log('Exercise 8 Result', convertTemperature(32,'F'));
 
 
 
