@@ -166,12 +166,31 @@ function calculateTip(billAmount,tipPercentage){
 }
 
 console.log('Exercise 7 Result:', calculateTip(50, 20));
+console.log(calculateTip(280,15)); // another pratice after completing & pushing this exercise
 
 /* Note for Mark from Deijah -- it tells me to write the tipPercentage as a whole number
 in the instructions, I'm wondering if i wassupposed to do something other than the division
 in like #165 within the tipPercentage value. Please let me knwo if there was another to
 write this out or if I'm correct in my undertanding. Thank you!
 
+
+/*
+Exercise 8: convertTemperature()
+
+Write a function named convertTemperature. 
+It takes two arguments: a temperature and a string representing the 
+scale ('C' for Celsius, 'F' for Fahrenheit). 
+Convert the temperature to the other scale.
+
+Example: convertTemperature(32, 'C') should return 89.6 (Fahrenheit).
+Example: convertTemperature(32, 'F') should return 0 (Celsius).
+
+Complete the exercise in the space below:
+*/
+
+
+
+console.log('Exercise 8 Result:', convertTemperature(32, "C"));
 
 
 
